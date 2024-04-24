@@ -7,7 +7,7 @@ public class Project1 {
 
     public static ArrayList<String> deleteStopWord(ArrayList<String> stopWords, ArrayList arraylist) {
         ArrayList<String> NewList = new ArrayList<>();
-        int i = 1;
+        int i = 0;
         while (i < arraylist.size()) {
             if (!stopWords.contains(arraylist.get(i).toString().toLowerCase())) {
                 NewList.add((String) arraylist.get(i));
