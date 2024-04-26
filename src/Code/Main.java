@@ -69,10 +69,12 @@ public class Main {
         System.out.println("- Finished Processing Files\n");
 
         // Take query from user and return relevant information
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.print("Please enter your query: ");
-//        String query = scanner.nextLine();
-//        System.out.println("The system will process your query later (" + query + ")!");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please enter your query: ");
+        String query = scanner.nextLine();
+        System.out.println("Processing your query...");
+        Project4 project4 = new Project4(query);
+        project4.run(stopWordsList,project3);
         System.out.println("DONE!");
     }
 }

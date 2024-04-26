@@ -1,27 +1,21 @@
 package Code;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class Project3 {
-//        generate tf
-//        boolean file
-//        generate tfidf
 
     private ArrayList<String> sfxFilesList;
     private String sfxFilesPath, invertedFilesPath;
-    private ArrayList<Double[]> tfidf;
-    private ArrayList<String> terms;
-    private ArrayList<String> docs;
-    private ArrayList<Integer> docFreq;
+    public ArrayList<Double[]> tfidf;
+    public ArrayList<String> terms;
+    public ArrayList<String> docs;
+    public ArrayList<Integer> docFreq;
     private Double[] tf;
-    private int num_docs;
+    public int num_docs;
 
     public Project3(ArrayList<String> sfxFilesList, String sfxFilesPath, String invertedFilesPath) {
         this.invertedFilesPath = invertedFilesPath;

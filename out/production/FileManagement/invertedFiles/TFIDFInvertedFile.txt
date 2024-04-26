@@ -1,4 +1,4 @@
- 		 cup 	 coffe 	 pen 	 gum 	 
+ 	 cup 	 coffe 	 pen 	 gum 	 
 doc1 	 0.125 	 0.302 	 0.205 	 0.0 	 
 doc2 	 0.25 	 0.0 	 0.0 	 0.603 	 
 doc3 	 0.0 	 0.302 	 0.205 	 0.0 	 

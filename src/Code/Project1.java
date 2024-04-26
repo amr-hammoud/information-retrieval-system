@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class Project1 {
 
-    public static ArrayList<String> deleteStopWord(ArrayList<String> stopWords, ArrayList arraylist) {
+    public static ArrayList<String> deleteStopWord(ArrayList<String> stopWords, ArrayList<String> arraylist) {
         ArrayList<String> NewList = new ArrayList<>();
         int i = 0;
         while (i < arraylist.size()) {
