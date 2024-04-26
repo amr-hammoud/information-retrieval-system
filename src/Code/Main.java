@@ -10,6 +10,7 @@ public class Main {
     static String txtFilesPath = "src\\txtFiles\\";
     static String stpFilesPath = "src\\stpFiles\\";
     static String sfxFilesPath = "src\\sfxFiles\\";
+    static String invertedFilesPath = "src\\invertedFiles\\";
 
     public static void main(String[] args) throws IOException {
 
@@ -63,9 +64,9 @@ public class Main {
 
         FileManager sfxFilesDir = new FileManager(sfxFilesPath);
         ArrayList<String> sfxFilesList = sfxFilesDir.getFileList("doc", ".sfx");
-        Project3 project3 = new Project3(sfxFilesList, sfxFilesPath);
-        project3.generateInvertedFiles();
-        System.out.println("- Finished Processing File\n");
+        Project3 project3 = new Project3(sfxFilesList, sfxFilesPath, invertedFilesPath);
+        project3.run();
+        System.out.println("- Finished Processing Files\n");
 
         // Take query from user and return relevant information
 //        Scanner scanner = new Scanner(System.in);
